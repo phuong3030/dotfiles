@@ -2,6 +2,7 @@ source ~/.rvm/scripts/rvm
 
 # PostgreSQL 
 export PATH=$PATH:/usr/bin
+export EDITOR=vim
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
