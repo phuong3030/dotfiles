@@ -41,3 +41,4 @@ else
 endif
 set runtimepath^=~/.vim/bundle/ag
 set clipboard=unnamed
+let g:ackprg = 'Ag --vimgrep'
