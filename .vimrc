@@ -39,3 +39,5 @@ if exists('+colorcolumn')
 else
 	au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
+set runtimepath^=~/.vim/bundle/ag
+set clipboard=unnamed
