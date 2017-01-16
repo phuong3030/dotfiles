@@ -42,3 +42,4 @@ endif
 set runtimepath^=~/.vim/bundle/ag
 set clipboard=unnamed
 let g:ackprg = 'Ag --vimgrep'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
