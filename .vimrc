@@ -43,3 +43,8 @@ set runtimepath^=~/.vim/bundle/ag
 set clipboard=unnamed
 let g:ackprg = 'Ag --vimgrep'
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" replace currently selected text with default register without yanking it
+xnoremap p "_dP
+let mapleader=","
+xnoremap <leader>p "_dP
