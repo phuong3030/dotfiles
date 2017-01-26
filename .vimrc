@@ -48,3 +48,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 xnoremap p "_dP
 let mapleader=","
 xnoremap <leader>p "_dP
+
+" vim-airline theme
+let g:airline_theme='molokai'                                                                                                                                              
