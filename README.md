@@ -10,7 +10,7 @@ Vim plugins:
 - vim-rails: cd ~/.vim/bundle && git clone https://github.com/tpope/vim-rails
 - vim-rspec: cd ~/.vim/bundle && git clone https://github.com/thoughtbot/vim-rspec
 - vim-ruby: cd ~/.vim/bundle && git clone https://github.com/vim-ruby/vim-ruby
-- vim-better-whitespace: https://github.com/ntpeters/vim-better-whitespace
-- vim-airline: cd ~/.vim/bundle && git clone https://github.com/scrooloose/nerdtree
+- vim-better-whitespace: cd ~/.vim/bundle && git clone https://github.com/ntpeters/vim-better-whitespace
+- vim-airline: cd ~/.vim/bundle && git clone https://github.com/bling/vim-airline
 - vim-airline-themes: cd ~/.vim/bundle && git clone https://github.com/vim-airline/vim-airline-themes
 - vim-fugitive: cd ~/.vim/bundle && git clone https://github.com/tpope/vim-fugitive 
