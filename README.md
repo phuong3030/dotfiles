@@ -14,3 +14,4 @@ Vim plugins:
 - vim-airline: cd ~/.vim/bundle && git clone https://github.com/bling/vim-airline
 - vim-airline-themes: cd ~/.vim/bundle && git clone https://github.com/vim-airline/vim-airline-themes
 - vim-fugitive: cd ~/.vim/bundle && git clone https://github.com/tpope/vim-fugitive 
+- sparkup: cd ~/.vim/bundle && git clone https://github.com/rstacruz/sparkup
