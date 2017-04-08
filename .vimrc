@@ -52,4 +52,5 @@ xnoremap <leader>p "_dP
 " vim-airline theme
 let g:airline_theme='molokai'                                                                                                                                              
 " sparkup for *.js *.jsx
-au BufNewFile,BufRead *.xml,*.tpl,*.js,*.jsx set ft=html
+" open .vim/ftplugin, create javascript.vim and add "runtime! ftplugin/html/sparkup.vim"
+
