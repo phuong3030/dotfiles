@@ -16,3 +16,4 @@ Vim plugins:
 - vim-fugitive: cd ~/.vim/bundle && git clone https://github.com/tpope/vim-fugitive 
 - sparkup: cd ~/.vim/bundle && git clone https://github.com/rstacruz/sparkup
 - vim-multiple-cursors: cd ~/.vim/bundle && git clone git@github.com:terryma/vim-multiple-cursors.git
+- ctrlp-py-matcher: git clone https://github.com/FelikZ/ctrlp-py-matcher ~/.vim/bundle/ctrlp-py-matcher
