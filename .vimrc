@@ -54,3 +54,5 @@ let g:airline_theme='molokai'
 " sparkup for *.js *.jsx
 " open .vim/ftplugin, create javascript.vim and add "runtime! ftplugin/html/sparkup.vim"
 
+" Improve ctrlp speed                                                           
+ let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' } 
