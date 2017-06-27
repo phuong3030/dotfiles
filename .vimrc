@@ -4,9 +4,9 @@ filetype plugin indent on
 filetype plugin on
 if $COLORTERM == 'gnome-terminal' 
 	set term=gnome-256color 
-	colorscheme railscasts 
+	colorscheme peachpuff 
 	else 
-	colorscheme torte 
+	colorscheme peachpuff 
 	endif 
 
 set nowrap        " don't wrap lines
