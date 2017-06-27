@@ -2,12 +2,12 @@ execute pathogen#infect('~/.vim/bundle/{}')
 syntax on
 filetype plugin indent on
 filetype plugin on
-if $COLORTERM == 'gnome-terminal' 
-	set term=gnome-256color 
-	colorscheme peachpuff 
-	else 
-	colorscheme peachpuff 
-	endif 
+if $COLORTERM == 'gnome-terminal'
+  set term=gnome-256color
+  colorscheme peachpuff
+else 
+  colorscheme peachpuff
+endif
 
 set nowrap        " don't wrap lines
 set backspace=indent,eol,start
@@ -35,9 +35,9 @@ set softtabstop=2
 set expandtab
 
 if exists('+colorcolumn')
-	set colorcolumn=80
+  set colorcolumn=80
 else
-	au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
 set runtimepath^=~/.vim/bundle/ag
 set clipboard=unnamed
@@ -50,9 +50,9 @@ let mapleader=","
 xnoremap <leader>p "_dP
 
 " vim-airline theme
-let g:airline_theme='molokai'                                                                                                                                              
+let g:airline_theme='molokai'
 " sparkup for *.js *.jsx
 " open .vim/ftplugin, create javascript.vim and add "runtime! ftplugin/html/sparkup.vim"
 
-" Improve ctrlp speed                                                           
- let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' } 
+" Improve ctrlp speed
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
